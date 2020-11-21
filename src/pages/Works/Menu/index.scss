@@ -1,0 +1,28 @@
+.works-menu {
+  margin-left: 10px;
+  button {
+    padding: 0;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #646464;
+    cursor: pointer;
+    border: none;
+    text-transform: capitalize;
+    background-color: transparent;
+    outline: none;
+
+    &:not(:last-child) {
+      margin-right: 15px;
+    }
+
+    &:hover,
+    &:active {
+      color: var(--primary-color);
+    }
+  }
+}
