@@ -1,27 +1,41 @@
 .social-logo {
-  display: inline-block;
-  height: 30px;
-  width: 30px;
-  border-radius: 50%;
-  border: none;
-  vertical-align: middle;
+	display: inline-block;
+	height: 30px;
+	width: 30px;
+	border: none;
+	vertical-align: middle;
 }
 
 .social-name {
-  display: inline-block;
-  vertical-align: middle;
-  margin-left: 5%;
-  font-size: 16px;
-  color: black;
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 7%;
+	font-size: 16px;
+	color: black;
 }
 
 .social-block {
-  display: inline-block;
-  width: 40%;
-  margin: 10px;
-  margin-left: 5%;
+	display: inline-block;
+	width: 40%;
+	margin: 20px auto 0 5%;
+	border: 2px solid #10185f;
+	padding-left: 5%;
+	border-radius: 49px;
+	transition: 0.3s;
+}
+
+.social-block:hover {
+	text-align: center;
+	padding-left: 0;
+	cursor: pointer;
+	background: linear-gradient(
+		90deg,
+		rgb(109, 109, 109) 0%,
+		rgb(255, 255, 255) 100%
+	);
+	font-weight: 600;
 }
 
 .social-main-div {
-  margin: 0 auto 0 auto;
+	margin: 0 auto 0 auto;
 }
