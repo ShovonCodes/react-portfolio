@@ -52,7 +52,7 @@ const Resume = () => {
 				button widget, integrated Cashfree payment gateway.
 			</ResumeItem>
 			<ResumeItem
-				date={'Apr 2019 - Jun 2019'}
+				date={'May 2019 - Jun 2019'}
 				title={"SELISE ROCKIN' SOFTWARE, DHANMONDI, DHAKA"}
 				company={'Software Engineer Intern'}>
 				• Played a prime role in building the frontend and backend for

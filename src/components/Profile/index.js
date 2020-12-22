@@ -33,7 +33,7 @@ const Profile = () => {
 			</div>
 			<div className='profile__contact'>
 				<a
-					href='https://drive.google.com/file/d/1Cw66J6pkKy3G4eC7Vq7nehFoxX397nm1/view?usp=sharing'
+					href='https://tinyurl.com/shovon588'
 					target='_blank'
 					rel='noreferrer'>
 					<span>Download Resume</span>
