@@ -28,8 +28,12 @@ jobs:
             # - node/install-packages:
             #     pkg-manager: yarn
             - run:
+                  name: Install AWS CLI
+                  command: sudo apt-get update
+                      sudo apt-get install awscli
+            - run:
                   name: Run project
-                  command: npm run deploy
+                  command: npm run-script build && npm run deploy
 
 workflows:
     # Below is the definition of your workflow.
