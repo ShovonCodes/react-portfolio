@@ -33,6 +33,7 @@ function App() {
 						<Menu />
 						<Profile />
 						<AnimatedRoutes />
+						<h1>Just for testing</h1>
 					</div>
 				</Router>
 			</div>
