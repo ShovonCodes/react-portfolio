@@ -29,7 +29,7 @@ jobs:
             #     pkg-manager: yarn
             - run:
                   name: Run project
-                  command: npm run-script build
+                  command: react-scripts build && aws s3 rm s3://dev.cempal.craftsmenltd.com/ --recursive && aws s3 cp ./build s3://dev.cempal.craftsmenltd.com/ --recursive --acl public-read
 
 workflows:
     # Below is the definition of your workflow.
