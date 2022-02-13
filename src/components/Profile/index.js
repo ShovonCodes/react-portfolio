@@ -22,12 +22,12 @@ const Profile = () => {
 				<TypedText
 					dataText={[
 						'Competitive Programmer',
-						'Frontend Development (ReactJs)',
-						'Backend Development (Django)',
+						'Full Stack Developer',
+						'Software Development Engineer',
 					]}
 				/>
 				<SocialLinks />
-				<Info icon='location'>KHULNA, BANGLADESH</Info>
+				<Info icon='location'>Dhaka, Bangladesh</Info>
 
 				<Skills />
 			</div>
