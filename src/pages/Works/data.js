@@ -53,7 +53,7 @@ export const projects = [
 			'https://i.ibb.co/y5v2xM9/portfolio4.png',
 		],
 		sourceCodeLink: 'https://github.com/Shovon588/react-portfolio',
-		demoLink: 'https://minulislam.xyz/',
+		demoLink: 'https://shovon588.github.io',
 		type: 'react',
 	},
 	{
