@@ -28,7 +28,6 @@ const Skills = () => {
 				<li id='postman'>Postman</li>
 				<li id='react'>React</li>
 				<li id='aws'>AWS</li>
-				<li id='bs'>Beautiful Soup</li>
 			</ul>
 		</div>
 	);
