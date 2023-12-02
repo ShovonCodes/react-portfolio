@@ -17,15 +17,16 @@ const Contact = () => {
 		<div className='page' id='contact'>
 			<Title>Social Accounts</Title>
 			<br />
+			
 
 			<div className='social-main-div'>
 				<a
-					href='https://tinyurl.com/y69d7ytn'
+					href='https://tinyurl.com/svn-cur-location'
 					target='_blank'
 					rel='noopener noreferrer'>
 					<div className='social-block'>
 						<img className='social-logo' src={location} alt='' />
-						<p className='social-name'>Rupsha, Khulna</p>
+						<p className='social-name'>Dhaka, Bangladesh</p>
 					</div>
 				</a>
 

@@ -14,20 +14,20 @@ const Skills = () => {
 
 	return (
 		<div className='skills'>
-			<h5>Skills</h5>
+			<h5>Top Skills</h5>
 			<ul
 				onMouseEnter={stopThemeChangeTimer}
 				// onMouseLeave={startThemeChangeTimer}
 				onMouseOver={handleMouseEnter}>
+				<li id='javascript'>JavaScript</li>
+				<li id='typescript'>TypeScript</li>
+				<li id='react'>ReactJs</li>
+				<li id='nodejs'>NodeJs</li>
+				<li id='aws'>AWS</li>
 				<li id='python'>Python</li>
 				<li id='django'>Django</li>
-				<li id='javascript'>JavaScript</li>
 				<li id='git'>Git</li>
-
-				<li id='drf'>Rest Framework</li>
 				<li id='postman'>Postman</li>
-				<li id='react'>React</li>
-				<li id='aws'>AWS</li>
 			</ul>
 		</div>
 	);

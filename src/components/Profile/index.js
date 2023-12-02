@@ -3,7 +3,7 @@ import './index.scss';
 import TypedText from '../TypedText';
 import SocialLinks from '../SocialLinks';
 import Info from '../Info';
-import Skills from '../Skills';
+import TopSkills from '../Skills/TopSkills';
 import { ThemeContext } from '../../context/ThemeContext';
 
 const Profile = () => {
@@ -29,7 +29,8 @@ const Profile = () => {
 				<SocialLinks />
 				<Info icon='location'>Dhaka, Bangladesh</Info>
 
-				<Skills />
+				<TopSkills />
+				{/* <MoreSkills /> */}
 			</div>
 			<div className='profile__contact'>
 				<a

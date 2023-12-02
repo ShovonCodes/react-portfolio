@@ -61,7 +61,7 @@ const About = () => {
                         <br />
                         <h3 className="mt-5">Github Activity</h3>
                         <codersrank-activity
-                            username="shovon588"
+                            username="minul-vimond"
                             branding="false"
                             labels="true"
                             legend="true"

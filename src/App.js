@@ -12,9 +12,11 @@ import {
     Route,
     withRouter,
 } from "react-router-dom";
-import Resume from "./pages/Resume";
+import Experience from "./pages/Experience";
 import Works from "./pages/Works";
 import Contact from "./pages/Contact";
+import Publications from './pages/Publications'
+import Education from './pages/Education'
 import BackToTop from "./components/BackToTop";
 
 // const routes = [
@@ -52,14 +54,20 @@ const AnimatedRoutes = withRouter(({ location }) => (
                 <Route exact path="/">
                     <About />
                 </Route>
-                <Route exact path="/resume">
-                    <Resume />
+                <Route exact path="/experience">
+                    <Experience />
                 </Route>
                 <Route exact path="/works">
                     <Works />
                 </Route>
                 <Route exact path="/contact">
                     <Contact />
+                </Route>
+                <Route exact path="/publications">
+                    <Publications />
+                </Route>
+                <Route exact path="/education">
+                    <Education />
                 </Route>
             </Switch>
         </CSSTransition>

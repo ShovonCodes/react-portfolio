@@ -3,45 +3,10 @@ import Title from '../common/Title';
 import './index.scss';
 import ResumeItem from './Item';
 
-const Resume = () => {
+const Experience = () => {
 	return (
 		<div className='page' id='resume'>
-			<Title icon={'fa fa-university'}>
-				<span style={{ paddingLeft: '10%' }}>EDUCATION</span>
-			</Title>
-
-			<ResumeItem
-				date={'2016 – 2021'}
-				title={'Rajshahi University of Engineering & Technlogy'}
-				company={'Rajshahi, Bangladesh'}>
-				<p
-					style={{
-						fontSize: '20px',
-						fontWeight: '500',
-						color: 'black',
-					}}>
-					Bachelor of Science, Electrical & Computer Engineering
-				</p>
-			</ResumeItem>
-
-			<ResumeItem
-				date={'2013 – 2015'}
-				title={'Govt. Bangabandhu College'}
-				company={'Rupsha, Khulna'}>
-				<p
-					style={{
-						fontSize: '20px',
-						fontWeight: '500',
-						color: 'black',
-					}}>
-					Higher Secondary Certificate
-				</p>
-			</ResumeItem>
-
-			<Title icon={'fa fa-briefcase'}>
-				{/*Resume - Total Commercial Experience {moment().diff('09/01/2016', 'years', true).toFixed(2)} years*/}
-				<span style={{ paddingLeft: '10%' }}>EXPERIENCE</span>
-			</Title>
+			<Title>Work Experience</Title>
 
 			<ResumeItem
 				date={'Apr 2021 - Current'}
@@ -94,23 +59,8 @@ const Resume = () => {
 				- Experienced a great company environment with excellent culture <br />
 				- Leverage knowledge on Jira, Balsamiq, BitBucket, PHP, etc. <br />
 			</ResumeItem>
-
-			<Title icon={'fa fa-newspaper'}>
-				{/*Resume - Total Commercial Experience {moment().diff('09/01/2016', 'years', true).toFixed(2)} years*/}
-				<span style={{ paddingLeft: '10%' }}>PUBLICATION</span>
-			</Title>
-
-			<ResumeItem
-				date={'June 5-7, 2020'}
-				title={
-					'RECOGNITION OF HANDWRITTEN BANGLA NUMBER USING MULTI LAYER CONVOLUTIONAL NEURAL NETWORK'
-				}
-				company={'Accepted on: IEEE Tensymp 2020'}>
-				• Used 80000+ unbiased and augmented data to train the model.{' '}
-				<br /> • Got an excellent accuracy of about 99%.
-			</ResumeItem>
 		</div>
 	);
 };
 
-export default Resume;
+export default Experience;

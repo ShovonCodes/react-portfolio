@@ -1,0 +1,47 @@
+.resume-item {
+  padding: 7px 0;
+  position: relative;
+
+  &__experience {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    & > img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+    }
+  }
+
+  &__date {
+    margin: 5% 0 11px;
+    margin-bottom: 3%;
+    padding: 5px;
+    position: relative;
+    display: inline-block;
+    vertical-align: center;
+    font-size: 15px;
+    line-height: 18px;
+    color: #262424;
+    font-weight: 500;
+    border: 1px solid #262424;
+  }
+
+  &__company {
+    p {
+      margin: 0 0 11px;
+      font-size: 20px;
+      color: #000;
+      font-weight: 600;
+      line-height: 30px;
+    }
+    h3 {
+      margin: 0 0 11px;
+      font-size: 18px;
+      color: #000000;
+      font-weight: 500;
+      text-align: left;
+    }
+  }
+}

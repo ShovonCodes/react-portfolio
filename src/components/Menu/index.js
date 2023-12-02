@@ -5,23 +5,29 @@ import "./index.scss";
 const Menu = () => {
 	return (
 		<ul className="menu">
-			<Menu.Item name={"person"} link="/#about">
+			<Menu.Item name={"person"} link="/">
 				About
 			</Menu.Item>
-			<Menu.Item name={"android-list"} link="/resume/#resume">
-				Resume
+			<Menu.Item name={"university"} link="/education">
+				Education
 			</Menu.Item>
-			<Menu.Item name={"code"} link="/works/#works">
+			<Menu.Item name={"briefcase"} link="/experience">
+				Experience
+			</Menu.Item>
+			<Menu.Item name={"ios-paper-outline"} link="/publications">
+				Publications
+			</Menu.Item>
+			<Menu.Item name={"code"} link="/works">
 				Projects
 			</Menu.Item>
-			<Menu.Item name={"at"} link="/contact/#contact">
+			<Menu.Item name={"at"} link="/contact">
 				Social
 			</Menu.Item>
 		</ul>
 	);
 };
 
-Menu.Item = ({ link = "#", children, name }) => (
+Menu.Item = ({ link = "", children, name }) => (
 	<li>
 		<NavHashLink smooth to={link} activeClassName={"active"} exact>
 			<span className={`icon ion-${name}`} />

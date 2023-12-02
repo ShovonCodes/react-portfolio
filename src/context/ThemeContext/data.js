@@ -2,17 +2,37 @@ import python from "../../assets/python.jpg";
 import react from "../../assets/react.png";
 import django from "../../assets/django.png";
 import js from "../../assets/js.png";
+import ts from "../../assets/typescript.png";
 import drf from "../../assets/drf.png";
 import aws from "../../assets/aws.png";
 import bs from "../../assets/bs.png";
 import git from "../../assets/git.png";
 import postman from "../../assets/postman.png";
+import nodejs from "../../assets/nodejs.png";
 
 export const THEMES = {
+  javascript: {
+    backgroundImage: js,
+    linearGradient: createLinearGradient("#bba815", "#FFF"),
+    primaryColor: "#BBA815",
+    color: "#000000",
+  },
+  typescript: {
+    backgroundImage: ts,
+    linearGradient: createLinearGradient("#bba815", "#FFF"),
+    primaryColor: "#2656c7",
+    color: "#000000",
+  },
   react: {
     backgroundImage: react,
     linearGradient: createLinearGradient("#61dafb", "#FFF"),
     primaryColor: "#61dafb",
+    color: "#222222",
+  },
+  nodejs: {
+    backgroundImage: nodejs,
+    linearGradient: createLinearGradient("#61dafb", "#FFF"),
+    primaryColor: "#6cc24a",
     color: "#222222",
   },
   python: {
@@ -26,12 +46,6 @@ export const THEMES = {
     linearGradient: createLinearGradient("#EC7211", "#FFF"),
     primaryColor: "#EC7211",
     color: "#49D191",
-  },
-  javascript: {
-    backgroundImage: js,
-    linearGradient: createLinearGradient("#bba815", "#FFF"),
-    primaryColor: "#BBA815",
-    color: "#000000",
   },
   django: {
     backgroundImage: django,
