@@ -10,26 +10,15 @@ const Experience = () => {
 
 			<ResumeItem
 				date={'Apr 2021 - Current'}
-				title={'Software Development Engineer (Full-time)'}
+				title={'Software Development Engineer - II (Full-time)'}
 				company={'Craftsmen Ltd., Dhaka, Bangladesh'}>
 				- Working as a Full Stack Developer <br />
-				- Responsible for developing Frontend and Backend <br />
-				- Working with teams in major European company <br />
-				- Working with latest tech stack like ReactJs, AWS (serverless) etc <br />
-				- Maintaining and improving legacy code <br />
-				- Developing new features to the project as per assignment <br />
+				- Working with modern technologies such as ReactJs, Node, and AWS Technologies <br />
+				- Maintaining and improving legacy code and developing new features <br />
+				- Contributing to building the world’s fastest, collaborative, cloud-native video editing tool <br />
 				- Making life easier for major broadcasting industries through developing OTT platform <br />
-				- Leverage knowledge on JavaScript, TypeScript, ReactJs, AWS, Serverless, Terraform etc. 
+				- Leverage knowledge on JavaScript, TypeScript, ReactJs, AWS, Serverless, Terraform etc. <br />
 			</ResumeItem>
-
-			<ResumeItem
-				date={'Mar 2021 - Mar 2021'}
-				title={'Junior Software Engineer (Full-time)'}
-				company={'Field Buzz (Field Information Solutions), Dhaka, Bangladesh'}>
-				- Worked as a Django backend developer <br />
-				- Maintained existing code and reported to senior engineers
-			</ResumeItem>
-
 
 			<ResumeItem
 				date={'Jun 2020 - Feb 2021'}
@@ -49,7 +38,7 @@ const Experience = () => {
 			<ResumeItem
 				date={'May 2019 - Jun 2019'}
 				title={'Software Engineer (Intern)'}
-				company={`SELISE ROCKIN' SOFTWARE, Dhaka, Bangladesh`}>
+				company={`SELISE Rockin' Software, Dhaka, Bangladesh`}>
 				- Learnt a lot of industry best practices and software development life cycle <br />
 				- Learnt different tools and frameworks required for the development <br />
 				- Designed, proposed, and built an online MCQ test application <br />
