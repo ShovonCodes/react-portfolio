@@ -42,6 +42,7 @@
 			object-fit: contain;
 			z-index: 22;
 			animation: fadeIn reverse;
+			cursor: pointer;
 		}
 
 		@include respond(tab-port) {
