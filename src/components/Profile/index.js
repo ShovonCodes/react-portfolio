@@ -39,7 +39,7 @@ const Profile = () => {
 			</div>
 			<div className='profile__contact'>
 				<a
-					href='https://tinyurl.com/shovon588'
+					href='http://tinyurl.com/shovon-resume'
 					target='_blank'
 					rel='noreferrer'>
 					<span>Download Resume</span>

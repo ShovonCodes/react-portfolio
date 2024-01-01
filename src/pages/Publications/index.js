@@ -16,6 +16,14 @@ const Publications = () => {
 				url='https://arxiv.org/abs/2311.02570' />
 			
 			<PublicationItem
+				date={'September 16, 2023'}
+				title={
+					'Investigating Subtler Biases in LLMs: Ageism, Beauty, Institutional, and Nationality Bias in Generative Models'
+				}
+				company={'Publisher: BUCC 2023, 16th Workshop on Building and Using Comparable Corpora'}
+				url='https://arxiv.org/abs/2309.08902' />
+			
+			<PublicationItem
 				date={'September 8, 2021'}
 				title={
 					'An Intense Investigation on Deep and Traditional Machine Learning Approaches for Better Sentiment Classification'
