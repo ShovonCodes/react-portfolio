@@ -20,7 +20,6 @@ const Publications = () => {
 				title={
 					'Investigating Subtler Biases in LLMs: Ageism, Beauty, Institutional, and Nationality Bias in Generative Models'
 				}
-				company={'Publisher: BUCC 2023, 16th Workshop on Building and Using Comparable Corpora'}
 				url='https://arxiv.org/abs/2309.08902' />
 			
 			<PublicationItem
