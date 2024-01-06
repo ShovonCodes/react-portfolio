@@ -17,7 +17,7 @@ const WorkItem = ({ images, title, sourceCodeLink, demoLink }) => {
 					<i className="fas fa-code" />
 					Source Code
 				</a>
-				<a
+				{/* <a
 					href={demoLink}
 					target="_blank"
 					className="work-item__demo"
@@ -25,7 +25,7 @@ const WorkItem = ({ images, title, sourceCodeLink, demoLink }) => {
 				>
 					<i className="fas fa-rocket" />
 					Demo
-				</a>
+				</a> */}
 			</div>
 		</div>
 	);
