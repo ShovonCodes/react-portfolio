@@ -118,8 +118,7 @@ body {
   display: flex;
   flex-direction: column;
   flex-basis: 100%;
-  flex: 0 0 50%; // This sets each column to be 50% width
-  // flex: 1;
+  flex: 1;
   padding: 30px 0;
   position: relative;
   vertical-align: top;

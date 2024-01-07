@@ -7,7 +7,7 @@ const About = () => {
         <div className="page" id="about">
             <Title>About Me</Title>
             <div className="row">
-                <div className="column">
+                <div className="column" style={{ width: '100%'}}>
                     <h4>Hi, I am Shovon</h4>
                     <p>
                         A dynamic Software Engineer with a dual focus on full stack development and cutting-edge research in

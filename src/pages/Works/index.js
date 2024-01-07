@@ -25,7 +25,7 @@ const Works = () => {
       />
       <div className="row">
         {selectedProjects.map((item) => (
-          <div className="column" key={item.sourceCodeLink}>
+          <div className="column" style={{ flex: '0 0 50%' }} key={item.sourceCodeLink}>
             <WorkItem {...item} />
           </div>
         ))}
