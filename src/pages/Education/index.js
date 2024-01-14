@@ -12,7 +12,7 @@ const Education = () => {
 				date={'2016 – 2021'}
 				title={'Rajshahi University of Engineering & Technlogy'}
 				company={'Rajshahi, Bangladesh'}
-				result="CGPA - 3.12 (3.47 in last 60 credits)">
+				result="CGPA: 3.12/4 (3.47/4 in last 60 credits)">
 				<p
 					style={{
 						fontSize: '20px',
@@ -27,7 +27,7 @@ const Education = () => {
 				date={'2013 – 2015'}
 				title={'Govt. Bangabandhu College'}
 				company={'Rupsha, Khulna'}
-				result="GPA - 5.00">
+				result="GPA: 5.00/5">
 				<p
 					style={{
 						fontSize: '20px',
@@ -42,7 +42,7 @@ const Education = () => {
 				date={'2011 – 2013'}
 				title={'Ajagarah High School'}
 				company={'Rupsha, Khulna'}
-				result="GPA - 5.00">
+				result="GPA: 5.00/5">
 				<p
 					style={{
 						fontSize: '20px',

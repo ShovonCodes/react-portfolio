@@ -12,7 +12,7 @@ const ResumeItem = ({date, title, company, children, classNames = '', result}) =
                     <div className="resume-item__company">
                         <p>{title}</p>
                         <h3>{company}</h3>
-                        { result && <h4>Result: {result}</h4>}
+                        { result && <h4>Result - {result}</h4>}
                     </div>
                 </div>
             </div>

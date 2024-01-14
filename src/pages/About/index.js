@@ -29,12 +29,13 @@ const About = () => {
 
                         <h4>Tools & technologies: </h4>
                         - Top languages: Python, JavaScript/TypeScript <br />
-                        - Top libraries & frameworks: ReactJs, Django Rest Framework <br />
+                        - Top libraries & frameworks: ReactJs, ExpressJs, Fastify, Django Rest Framework <br />
                         - Databases: MySQL, PostgreSQL, DynamoDB <br />
                         - Cloud technologies: AWS (Lambda, Api Gateway, Cognito, Cloudfront, S3, SNS, SQS, etc) <br />
-                        - IaC frameworks: Terraform, Serverless - Others: MaterialUI, CircleCI, etc. <br />
-                        - AI/ML Libraries: • Tensorflow, NLTK, Pandas, NumPy, SKLearn etc. <br />
+                        - IaC frameworks: Terraform, Serverless framework <br />
+                        - AI/ML Libraries: Tensorflow, NLTK, Pandas, NumPy, SKLearn etc. <br />
                         - Writing tools: LaTeX, Microsoft Excel <br />
+                        - Others: MaterialUI, CircleCI, Ffmpeg, etc. <br />
                     </p>
 
                     <div>
