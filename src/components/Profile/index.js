@@ -39,7 +39,7 @@ const Profile = () => {
 			</div>
 			<div className='profile__contact'>
 				<a
-					href='http://tinyurl.com/shovon-resume'
+					href='https://drive.google.com/file/d/18eQvto2sPtx302HX0FLxqQGRA4Z6RsK6/view?usp=sharing'
 					target='_blank'
 					rel='noreferrer'>
 					<span>Download Resume</span>

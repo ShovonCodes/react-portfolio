@@ -6,7 +6,14 @@ const Publications = () => {
 	return (
 		<div className='page' id='publications'>
 			<Title>Publications</Title>
-
+			<PublicationItem
+				date={'Presented on July 11, 2025'}
+				title={
+					'LLM4Review: A Pretrained Transformer-Based Framework for Multi-Language Code Review'
+				}
+				company={'Publisher: IEEE 2025, The 16th International IEEE Conference On Computing, Communication And Networking Technologies (ICCNT)'}
+				url='' />
+			
 			<PublicationItem
 				date={'November 5, 2023'}
 				title={

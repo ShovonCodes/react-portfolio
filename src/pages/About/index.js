@@ -10,42 +10,23 @@ const About = () => {
                 <div className="column" style={{ width: '100%'}}>
                     <h4>Hi, I am Shovon</h4>
                     <p>
-                        A dynamic Software Engineer with a dual focus on full stack development and cutting-edge research in
-                        artificial intelligence. I excel in problem-solving and take pleasure in crafting scalable, user-friendly
-                        web applications using the latest frameworks and technologies. <br /><br />
+                        I’m a Full-Stack Software Engineer with 4+ years of experience building cloud-native applications using AWS, React, 
+                        TypeScript, and Node.js. I enjoy creating solutions that work smarter, faster, and cleaner. <br /><br />
 
-                        In the realm of full stack development, I specialize in creating SaaS applications, leveraging serverless
-                        technologies, and designing micro-service architectures. Proficient in Python and JavaScript/TypeScript,
-                        I have hands-on experience with frameworks like ReactJs and Django Rest Framework. My database expertise
-                        includes MySQL, PostgreSQL, and DynamoDB, and I am well-versed in cloud technologies such as AWS services. <br /><br />
+                        My current focus is on Large Language Models (LLMs) and intelligent automation, pushing beyond simple chat to 
+                        building agents that truly assist. Alongside engineering, I hold a deep passion for research and aspire to pursue a 
+                        PhD, contributing to the advancement of AI systems and infrastructure. I’m eager to collaborate with research labs and
+                        contribute to meaningful work at the intersection of large-scale systems and AI.<br /><br />
 
-                        Beyond my role as a Full Stack Developer, my passion extends to the realms of research. I am particularly
-                        intrigued by artificial intelligence, delving into machine learning, natural language processing,
-                        and handwriting recognition. <br /><br />
-
-                        I am currently aspiring to pursue higher studies and contribute to the field of research. If you are seeking
-                        a dynamic professional with expertise in full stack development and a passion for cutting-edge research,
-                        I am eager to connect and explore potential opportunities. <br /> <br />
-
-                        <h4>Tools & technologies: </h4>
-                        - Top languages: Python, JavaScript/TypeScript <br />
-                        - Top libraries & frameworks: ReactJs, ExpressJs, Fastify, Django Rest Framework <br />
-                        - Databases: MySQL, PostgreSQL, DynamoDB <br />
-                        - Cloud technologies: AWS (Lambda, Api Gateway, Cognito, Cloudfront, S3, SNS, SQS, etc) <br />
-                        - IaC frameworks: Terraform, Serverless framework <br />
-                        - AI/ML Libraries: Tensorflow, NLTK, Pandas, NumPy, SKLearn etc. <br />
-                        - Writing tools: LaTeX, Microsoft Excel <br />
-                        - Others: MaterialUI, CircleCI, Ffmpeg, etc. <br />
+                        <h4>Tools & Technologies:</h4>
+                        - Languages: TypeScript, JavaScript, Python <br />
+                        - Frameworks: React, Node.js, Express, Fastify, Django Rest Framework <br />
+                        - Databases: DynamoDB, PostgreSQL, MySQL <br />
+                        - Cloud: AWS (Lambda, API Gateway, Cognito, CloudFront, Step Functions, SNS, SQS, etc.) <br />
+                        - IaC: Terraform, Serverless Framework <br />
+                        - AI/ML: TensorFlow, NLTK, Pandas, NumPy, Scikit-learn <br />
+                        - Frontend & Tools: Tailwind, Material UI, CircleCI, FFmpeg, LaTeX <br />
                     </p>
-
-                    <div>
-                        <h3 className="mt-5">Coders Rank Profile</h3>
-                        <codersrank-summary
-                            username="shovon588"
-                            branding="false"
-                            show-avatar="false"
-                        ></codersrank-summary>
-                    </div>
                 </div>
             </div>
         </div>

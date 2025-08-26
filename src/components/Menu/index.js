@@ -17,9 +17,9 @@ const Menu = () => {
 			<Menu.Item name={"ios-paper-outline"} link="/publications">
 				Publications
 			</Menu.Item>
-			<Menu.Item name={"code"} link="/works">
+			{/* <Menu.Item name={"code"} link="/works">
 				Projects
-			</Menu.Item>
+			</Menu.Item> */}
 			<Menu.Item name={"at"} link="/contact">
 				Social
 			</Menu.Item>

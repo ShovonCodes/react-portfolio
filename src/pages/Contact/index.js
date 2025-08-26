@@ -56,7 +56,7 @@ const Contact = () => {
 				</a>
 
 				<a
-					href='https://github.com/shovon588'
+					href='https://github.com/ShovonCodes'
 					target='_blank'
 					rel='noopener noreferrer'>
 					<div className='social-block'>
@@ -95,7 +95,7 @@ const Contact = () => {
 					</div>
 				</a>
 
-				<a
+				{/* <a
 					href='https://toph.co/u/mainulislam588'
 					target='_blank'
 					rel='noopener noreferrer'>
@@ -113,7 +113,7 @@ const Contact = () => {
 						<img className='social-logo' src={stopstalk} alt='' />
 						<p className='social-name'>StopStalk</p>
 					</div>
-				</a>
+				</a> */}
 			</div>
 		</div>
 	);
