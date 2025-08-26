@@ -5,12 +5,10 @@ import github from '../../assets/github.png';
 import linkedin from '../../assets/linkedin.png';
 import cf from '../../assets/cf.png';
 import hackerrank from '../../assets/hackerrank.png';
-import stopstalk from '../../assets/stopstalk.png';
 import email from '../../assets/email.png';
 import whatsapp from '../../assets/whatsapp.png';
 import phone from '../../assets/phone.png';
 import location from '../../assets/location.png';
-import toph from '../../assets/toph.png';
 
 const Contact = () => {
 	return (
