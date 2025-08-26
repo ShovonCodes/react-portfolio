@@ -27,7 +27,8 @@ const Publications = () => {
 				title={
 					'Investigating Subtler Biases in LLMs: Ageism, Beauty, Institutional, and Nationality Bias in Generative Models'
 				}
-				url='https://arxiv.org/abs/2309.08902' />
+				company={'Publisher: The 62nd Annual Meeting of the Association for Computational Linguistics (ACL 2024)'}
+				url='https://aclanthology.org/2024.findings-acl.530/' />
 			
 			<PublicationItem
 				date={'September 8, 2021'}
